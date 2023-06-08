@@ -154,22 +154,22 @@
             <div class="title" id="end-date">20 March 2022 10:00 PM</div>
             <div class="col">
                 <div>
-                    <input type="text" class="clock" readonly value="0">
+                    <input type="text" class="clock" readonly value="0" id="day">
                     <br/>
                     <label for="">Days</label>
                 </div>
                 <div>
-                    <input type="text" class="clock" readonly value="0">
+                    <input type="text" class="clock" readonly value="0" id="hr">
                     <br/>
                     <label for="">Hours</label>
                 </div>
                 <div>
-                    <input type="text" class="clock" readonly value="0">
+                    <input type="text" class="clock" readonly value="0" id="min">
                     <br/>
                     <label for="">Minutes</label>
                 </div>
                 <div>
-                    <input type="text" class="clock" readonly value="0">
+                    <input type="text" class="clock" readonly value="0" id="sec">
                     <br/>
                     <label for="">Seconds</label>
                 </div>
@@ -336,14 +336,19 @@
        
 
         function clock() {
-            let diff =  date.getTime() - Date.now();
-        let seconds = diff / 1000;
+            // let diff =  date.getTime() - Date.now();
+            let diff =  date.getTime() - new Date();
+            let seconds = diff / 1000;
         let d = Math.floor(seconds / (3600*24));
         let h = Math.floor(seconds % (3600*24) / 3600);
         let m = Math.floor(seconds % 3600 / 60);
         let s = Math.floor(seconds % 60); 
         console.log(d+":"+h+":"+m+":"+s);
-            
+          
+        document.getElementById('day').value = d;
+        document.getElementById('hr').value = h;
+        document.getElementById('min').value = m;
+        document.getElementById('sec').value = s;
         }
         
         setInterval(
