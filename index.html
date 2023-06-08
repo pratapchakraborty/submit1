@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-static-top fixed-top bg-white" role="navigation">
+        <a class="navbar-brand" href="#"><img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/IT4B.png"
+                style="height: 45px; width: 153px; margin-left: 50px;" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+            <div class="d-flex justify-content-center">
+                <ul class="navbar-nav ml-5 px-md-3"> <!--mr-auto mt-2 mt-lg-0-->
+                    <li class="nav-item px-md-2 active">
+                        <a class="nav-link" href="#inscription">Inscription</a>
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <a class="nav-link" href="#presentation">Presentation</a>
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <a class="nav-link" href="#agenda">Agenda</a>
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <a class="nav-link" href="#leads">Leads</a>
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <a class="nav-link" href="#location">Location</a>
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <a class="btn" href="#partners">Partners</a>
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/cionet.png" alt="logo"
+                            style="height: 35px; width: 115px;">
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/BT-violet.svg" alt="logo"
+                            style="height: 30px; width: 40px;">
+                    </li>
+                    <li class="nav-item px-md-2">
+                        <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/paloalto.svg" alt="logo"
+                            style="height: 30px; width: 120px;">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--body-->
+
+    <div class="contains mb-2 text-white jumbotron margin-bottom media" id="Inscription" style="width:400px;">
+        <div class="container-fluid row align-items-center justify-content-center mt-5 brand">
+            <div class="col-lg-8 col-md-10 col-10 px-lg-5 px-md-5 px-0  text-center">
+                <div class="imgs">
+                    <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/IT4B-white.png" alt="IT logo"
+                    width="450"    class="pb-5">
+                    <br>
+                    <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/titre-2.svg" alt="logo2" width="450"class="pb-0">
+                </div>
+                    <div class="bd"></div>
+                <div class="hr trait mx-auto my-5 bg-white"></div>
+                <h2 class="mb-4 font500 ">
+                    Dinner | 8th jun 2023 | 19:00
+                </h2>
+                <h2 class="mb-4">
+                    Hotel Taj India
+                    <br>
+                    <br>
+                    Mumbai, colaba 700078
+                </h2>
+            </div>
+            <div class="col-lg-4 col-md-10 col-10 form">
+                <form class="row mt-2 py-5 px-5 rounded justify-content-center">
+                    <h4 class="text-center mb-4">Invitation Form</h4>
+                    <div class="col">
+                        <div class="col-8">
+                            <label for="name" class="form-label">First Name</label>
+                            <input type="text" class="form-control rounded">
+                        </div>
+                        <div class="col-8">
+                            <label for="last_name" class="form-label">Last Name
+                            <input type="text" class="form-control rounded mt-2">
+                        </div>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <label for="mobilenumber" class="form-label">Mobile No.</label>
+                        <input type="text" class="form-control rounded">
+                    </div>
+                    <div class="col-12 mt-2">
+                        <label for="email" class="form-label">Email Id:</label>
+                        <input type="email" class="form-control rounded">
+                    </div>
+                    <div class="col-12 mt-2">
+                        <label for="telephone" class="form-label">Telephone</label>
+                        <input type="text" class="form-control rounded" id="telephone" name="telephone" required>
+                    </div>
+                    <div class="col-12 mt-3 text-left">
+                        <input class="form-check-input rounded-0" type="checkbox">
+                        <label class="form-check-label text-center">
+                            Check Me in
+                        </label>
+                    </div>
+                    <div class="col-12 text-left">
+                        <input class="form-check-input rounded-0" type="checkbox" value="" id="newsletter"
+                            name="newsletter">
+                        <label class="form-check-label">
+                            Remembar me
+                        </label>
+                    </div>
+                    <div class="col-10 mt-4 text-center">
+                        <button type="submit" class="btn bg-white rounded px-4">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--clock-->
+
+        <div class="overlay mt-0 bg-primary">
+            
+            <div class="title" id="end-date">20 March 2022 10:00 PM</div>
+            <div class="col">
+                <div>
+                    <input type="text" class="clock" readonly value="0">
+                    <br/>
+                    <label for="">Days</label>
+                </div>
+                <div>
+                    <input type="text" class="clock" readonly value="0">
+                    <br/>
+                    <label for="">Hours</label>
+                </div>
+                <div>
+                    <input type="text" class="clock" readonly value="0">
+                    <br/>
+                    <label for="">Minutes</label>
+                </div>
+                <div>
+                    <input type="text" class="clock" readonly value="0">
+                    <br/>
+                    <label for="">Seconds</label>
+                </div>
+            </div>
+        </div>
+
+        <!--card-->
+            <div class="container-fluid py-5" id="presentation">
+                <div class="row align-items-center justify-content-center py-5">
+                    <div class="col-lg-5 col-md-6 col-11 mb-lg-0 mb-md-2 mb-3 text-left card cardbody">
+                        <p class="m-0 p-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quos error delectus, voluptatem, aliquam earum consectetur amet omnis recusandae dolorum et fugit. Voluptate, aliquid officia. Ut facilis commodi tenetur repudiandae!
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe eaque natus laudantium, sint fuga quisquam illo culpa veritatis velit error obcaecati nulla modi accusamus, numquam earum repudiandae rerum voluptate.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-11 text-left card cardbodycontainer">
+                        <h3 class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum eaque eligendi minus voluptatum repellendus ipsam quasi sed.</h3>
+
+                        <ul>
+                            <li>&nbsp; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda expedita consectetur tempora.</li>
+                            <li>&nbsp; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit error doloremque, blanditiis .</li>
+                            <li>&nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fugiat vel provident, asperiores.
+                            <li>&nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias dolor accusantium quam ullam.</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+<!--card sec-->
+            <section class="py-5 bg-primary text-white" id="agenda">
+                <div class="py-5">
+                    <div class="row align-items-center justify-content-center py-0">
+                        <div class="col-lg-2 col-md-3 col-10 text-center mb-md-0 mb-5">
+                            <h2 class="m-0">Agenda</h2>
+                        </div>
+                        <div class="side-border"></div>
+                        <div class="col-lg-3 col-md-5 col-10">
+                            <div class="row align-items-center justify-content-center mb-3">
+                                <div class="col-md-auto col-10">
+                                    <p class="mb-0">19h00</p>
+                                </div>
+                                <div class="col-md-8 col-10">
+                                    <p class="descriptionAgenda mb-0">Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center text mb-3">
+                                <div class="col-md-auto col-10">
+                                    <p class="mb-0">19h30</p>
+                                </div>
+                                <div class="col-md-8 col-10">
+                                    <p class="descriptionAgenda mb-0">Lorem ipsum dolor sit amet consectetur.</p>
+                                </div>
+                            </div>
+                            <!---->
+                            <div class="row align-items-center justify-content-center text mb-0">
+                                <div class="col-md-auto col-10">
+                                    <p class="mb-0">22h00</p>
+                                </div>
+                                <div class="col-md-8 col-10">
+                                    <p class="descriptionAgenda mb-0">Lorem, ipsum dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!--Investers-->
+            <section class="py-5 bg-light" id="leads">
+                <div class="py-5">
+                    <div class="row">
+                        <div class="col-12 text-center mb-5">
+                            <h2>Investers</h2>
+                        </div>
+                    </div>
+                    <div class="row align-items-start justify-content-center py-0">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-10 text-center">
+                            <img src="https://www.workitdaily.com/media-library/successful-professional-man-holding-a-tablet.jpg?id=25967282&width=980" alt="Nicolas Jhons" class="img-fluid rounded mb-3" width="150">
+                            <p class="mb-sm-0 mb-4"><em>Nicolas Jhons</em><br><b>BTS Technologies Corporation</b><br>CEO</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-10 text-center">
+                            <img src="https://blog.hubspot.com/hubfs/characteristics-of-professional-salespeople.jpg" alt="Julian Laracroft" class="img-fluid rounded mb-3" width="150">
+                            <p class="mb-sm-0 mb-4"><em>Julian Laracroft</em><br><b>Sizmos AI Pvt.Ltd.</b><br>Director</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-10 text-center">
+                            <img src="https://qph.cf2.quoracdn.net/main-qimg-15fbfdbc0ab691ba309ee3ccd1a09aab-lq" alt="Maria Sanchez" class="img-fluid rounded mb-3" width="150">
+                            <p class="mb-sm-0 mb-4"><em>Maria Sanchez</em><br><b>Rod AI Technologies</b><br>Director</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Location-->
+            <section class="py-5" id="location">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-12 text-center mb-5">
+                            <h2>Address</h2>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-4 col-10 text-black text-center mb-3">
+                            <h2><b>Hotel Taj India</b></h2>
+                            <h3 class="">Mumbai, colaba<br>700078 India</h3>
+                            <div class="row mt-5">
+                                <div class="col-12 text-center text-dark">
+                                    <i class="material-icons">email</i><em class="ml-3">example@tajhotel.com</em>
+                                    <br>
+                                    <i class="fa fa-mobile-phone" style="font-size:20px"></i><em class="ml-3">+919876543210</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-10 text-center mb-3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15096.803049508908!2d72.81558360468641!3d18.922505786936632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1684a08e4c5%3A0x783a5ec96eda8bea!2sTaj%20Hotel%20view%20point!5e0!3m2!1sen!2sin!4v1686206578894!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--logos-->
+        <section class="py-5 bg-secondary text-white" id="partners">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2>Partners</h2>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center py-0">
+                    <div class="col-auto text-center">
+                        <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/cionet.png" alt="cionet" class="img-fluid" width="150">
+                    </div>
+                    <div class="col-auto text-center">
+                        <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/BT-violet.svg" alt="BT" class="img-fluid" width="100">
+                    </div>
+                    <div class="col-auto text-center">
+                        <img src="https://itforbusinessleclub.fr/diner-cionet-2/assets/img/paloalto.svg" alt="Palo Alto" class="img-fluid" width="150">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-dark">
+                    <p class="m-0">&copy; 2023 IT for Fun</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<script>
+        const endDate = "27 July 2024 08:20:00 PM"
+
+        document.getElementById("end-date").innerText = endDate;
+        const inputs = document.querySelector("input")
+        let date = new Date(endDate)
+        
+       
+
+        function clock() {
+            let diff =  date.getTime() - Date.now();
+        let seconds = diff / 1000;
+        let d = Math.floor(seconds / (3600*24));
+        let h = Math.floor(seconds % (3600*24) / 3600);
+        let m = Math.floor(seconds % 3600 / 60);
+        let s = Math.floor(seconds % 60); 
+        console.log(d+":"+h+":"+m+":"+s);
+            
+        }
+        
+        setInterval(
+            () => {
+                clock()
+            },
+            1000
+        )
+        
+</script>
+</body>
+
+</html>
