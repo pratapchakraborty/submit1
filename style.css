@@ -107,6 +107,15 @@
     /* .side-border{
         visibility:hidden;
     } */
+    .clock {
+        width: 70%;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-color: transparent;
+        border-radius: 5px;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+    }
 } 
 
 
